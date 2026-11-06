@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jay Sepehri | Full-Stack & AI Developer</title>
+  <meta name="description" content="Jay Sepehri: full-stack developer with 11 years in oil & gas. Python, FastAPI, React and AI integrations built with an operator's eye for reliability." />
+  <meta name="author" content="Jay Sepehri" />
+
+  <!-- Social previews (LinkedIn, X, Slack) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jay Sepehri | Full-Stack & AI Developer" />
+  <meta property="og:description" content="From oil & gas to web development. Python, FastAPI, React and AI integrations." />
+  <meta property="og:url" content="https://sepehrime.github.io/" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Dark is the default; only a theme the visitor picked with the toggle overrides it -->
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      document.documentElement.setAttribute("data-theme", t === "light" ? "light" : "dark");
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="logo" href="#top" aria-label="Jay Sepehri, home">&lt;jay/&gt;</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Switch color theme">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero container" id="top">
+      <p class="eyebrow mono">Hi, I'm</p>
+      <h1 class="hero-name">Jay Sepehri</h1>
+      <p class="hero-role mono" aria-live="polite">
+        <span class="typed" data-roles='["Web Developer", "Python, SQL & JavaScript", "AI Solutions Integrator", "From Oil & Gas to Web Development"]'>Web Developer</span><span class="cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-lede">
+        Full-stack developer with 11 years in the oil &amp; gas industry. I build web apps, APIs
+        and data layers with an operator's eye for reliability, real data, and the constraints
+        people face in the field.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+      <ul class="hero-social" aria-label="Profiles">
+        <li><a href="https://github.com/sepehrime" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/jaysepehri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        </a></li>
+        <li><a href="mailto:sepehri.jay@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="stroke"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+        </a></li>
+      </ul>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container reveal" id="about">
+      <h2 class="section-title"><span class="mono">01.</span> About me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I spent <strong>11 years in oil &amp; gas</strong> before moving into software. That time taught me
+            to build things that keep working when the data is messy, the connection is bad, and the
+            person using the tool has no time to read a manual.
+          </p>
+          <p>
+            Today I build web applications, APIs and database layers with
+            <strong>Python (Flask, FastAPI, SQLAlchemy)</strong>, <strong>JavaScript</strong> and
+            <strong>React</strong>. As a former <strong>Product Owner</strong> I've managed software teams;
+            now I focus on hands-on development and architecture.
+          </p>
+          <p>
+            I'm currently going deeper into Linux shell scripting and integrating AI models into real
+            applications, with answers that stay traceable rather than magical.
+          </p>
+        </div>
+        <aside class="about-card">
+          <p class="mono label">Open to</p>
+          <p class="open-to">Full-stack and Python backend roles, especially where AI or energy-industry experience helps.</p>
+          <ul class="facts">
+            <li><span class="mono">11 yrs</span> oil &amp; gas industry</li>
+            <li><span class="mono">PO</span> led software teams</li>
+            <li><span class="mono">AI</span> LLM &amp; PyTorch projects</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="mailto:sepehri.jay@gmail.com">Email me</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container reveal" id="projects">
+      <h2 class="section-title"><span class="mono">02.</span> Featured projects</h2>
+      <div class="project-filters" role="group" aria-label="Filter projects">
+        <button class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="ai" aria-pressed="false">AI / ML</button>
+        <button class="chip" data-filter="web" aria-pressed="false">Web</button>
+        <button class="chip" data-filter="python" aria-pressed="false">Python</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-tags="ai web python">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">🧠</span>
+            <h3>Imagine</h3>
+          </div>
+          <p class="project-sub mono">Inside the Network</p>
+          <p>An interactive explainer of how neural networks work. Build a network, run data through it, train it, and watch every weight change live in the browser.</p>
+          <ul class="tags"><li>React</li><li>FastAPI</li><li>PyTorch</li><li>Tailwind</li><li>Playwright</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/Imagine" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="ai python">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">🛢️</span>
+            <h3>WellLogQ&#8209;A</h3>
+          </div>
+          <p class="project-sub mono">Ask your well log</p>
+          <p>Ask plain-English questions about a well log (LAS file). An LLM picks which tool to run, and plain Python computes every number, so answers stay traceable.</p>
+          <ul class="tags"><li>Python</li><li>pandas</li><li>Plotly</li><li>OpenRouter LLMs</li><li>pytest</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/WellLogQ-A" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="web">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">🇫🇷</span>
+            <h3>CarteBlanche</h3>
+          </div>
+          <p class="project-sub mono">French, one card at a time</p>
+          <p>A game-like French flashcard app with 1,000 everyday expressions, spaced repetition, streaks, XP and collectible stamps. No account or server needed.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="project-links">
+            <a href="https://sepehrime.github.io/CarteBlanche/" target="_blank" rel="noopener noreferrer">Live demo →</a>
+            <a href="https://github.com/sepehrime/CarteBlanche" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="python">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">👀</span>
+            <h3>GlanceAway</h3>
+          </div>
+          <p class="project-sub mono">Rest your eyes</p>
+          <p>A macOS focus timer that reminds you to look away from the screen and rest your eyes between work sessions.</p>
+          <ul class="tags"><li>Python</li><li>Tkinter</li><li>PyInstaller</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/GlanceAway" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <!-- TODO(Jay): check this description, the tech tags and the repo link -->
+        <article class="project-card" data-tags="web">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">⚡</span>
+            <h3>JS-Interactive</h3>
+          </div>
+          <p class="project-sub mono">Hands-on JavaScript</p>
+          <p>Interactive JavaScript projects that run straight in the browser.</p>
+          <ul class="tags"><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/JS-Interactive" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <!-- TODO(Jay): check this description, the tech tags and the repo link -->
+        <article class="project-card" data-tags="web">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">🕹️</span>
+            <h3>Terminal Quest</h3>
+          </div>
+          <p class="project-sub mono">Learn the shell by playing</p>
+          <p>A game-style way to practise Linux terminal commands.</p>
+          <ul class="tags"><li>JavaScript</li><li>Bash</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/Terminal-Quest" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <!-- TODO(Jay): check this description, the tech tags and the repo link -->
+        <article class="project-card" data-tags="web">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">🎛️</span>
+            <h3>Personal Command Center</h3>
+          </div>
+          <p class="project-sub mono">Everything in one place</p>
+          <p>A personal dashboard that brings everyday tools and info into one view.</p>
+          <ul class="tags"><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/Personal-command-Center" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+
+        <!-- TODO(Jay): check this description, the tech tags and the repo link -->
+        <article class="project-card" data-tags="web">
+          <div class="project-top">
+            <span class="project-emoji" aria-hidden="true">🚀</span>
+            <h3>Space Log</h3>
+          </div>
+          <p class="project-sub mono">Notes from orbit</p>
+          <p>A log of space data and discoveries.</p>
+          <ul class="tags"><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/sepehrime/Space-log" target="_blank" rel="noopener noreferrer">Code →</a>
+          </div>
+        </article>
+      </div>
+      <p class="more"><a href="https://github.com/sepehrime?tab=repositories" target="_blank" rel="noopener noreferrer">See all repositories on GitHub →</a></p>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section container reveal" id="journey">
+      <h2 class="section-title"><span class="mono">03.</span> Journey</h2>
+      <ol class="timeline">
+        <!-- TODO(Jay): add years to each step, e.g. <p class="when mono">2012 – 2023</p> -->
+        <li>
+          <p class="when mono">11 years</p>
+          <h3>Oil &amp; gas industry</h3>
+          <p>Worked with real field data and the people who depend on it. Learned that reliability beats cleverness.</p>
+        </li>
+        <li>
+          <p class="when mono">Product Owner</p>
+          <h3>Leading software teams</h3>
+          <p>Managed software teams, owned the backlog, and turned operator needs into shipped features.</p>
+        </li>
+        <li>
+          <p class="when mono">Now</p>
+          <h3>Full-stack &amp; AI developer</h3>
+          <p>Hands-on development and architecture: Python backends, React frontends, and AI models wired into apps in a traceable way.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container reveal" id="skills">
+      <h2 class="section-title"><span class="mono">04.</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul class="tags"><li>Python</li><li>Flask</li><li>FastAPI</li><li>SQLAlchemy</li><li>SQL</li><li>SQLite</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul class="tags"><li>JavaScript</li><li>React</li><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>Tailwind</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI &amp; data</h3>
+          <ul class="tags"><li>PyTorch</li><li>scikit-learn</li><li>pandas</li><li>Plotly</li><li>LLM integration</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="tags"><li>Git &amp; GitHub</li><li>Linux</li><li>Bash</li><li>Docker</li><li>pytest</li><li>Playwright</li><li>VS Code</li><li>PyCharm</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container reveal contact" id="contact">
+      <h2 class="section-title"><span class="mono">05.</span> Let's talk</h2>
+      <p class="contact-lede">I'm open to full-stack and Python backend roles. If you're hiring, or just want to talk energy, AI or code, my inbox is open.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:sepehri.jay@gmail.com">sepehri.jay@gmail.com</a>
+        <button class="btn btn-ghost copy-email" type="button" data-email="sepehri.jay@gmail.com">Copy email</button>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/jaysepehri/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Jay Sepehri · Built with plain HTML, CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
